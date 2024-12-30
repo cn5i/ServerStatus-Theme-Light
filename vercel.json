@@ -1,8 +1,24 @@
 {
-  "routes": [
-    {
-      "src": "/json/stats.json",
-      "dest": "https://ssr.rs/json/stats.json"
-    }
-  ]
+    "routes": [
+        {
+            "src": "/report",
+            "dest": "http://al.fvars.com:8080/report"
+        },
+        {
+            "src": "/json/stats.json",
+            "dest": "http://al.fvars.com:8080/json/stats.json"
+        },
+        {
+            "src": "/detail",
+            "dest": "http://al.fvars.com:8080/detail"
+        },
+        {
+            "src": "/map",
+            "dest": "http://al.fvars.com:8080/map"
+        },
+        {
+            "src": "/i",
+            "dest": "http://al.fvars.com:8080/i"
+        }
+    ]
 }
